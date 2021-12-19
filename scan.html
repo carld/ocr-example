@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scanner</title>
+    <link rel="stylesheet" type="text/css" href="scan.css">
+</head>
+<body ondragover="return false">
+
+    <input type="file" id="input"/>
+
+    <div id="preview">
+        <canvas id="overlay"></canvas>
+    </div>
+
+    <div id="log"></div>
+
+    <script src="https://unpkg.com/tesseract.js@2.0.0/dist/tesseract.min.js" integrity="sha384-MTEb82ufpBJ2VCTmPZlD/+vgiT5z6zmOwqU/uDO9IobYm9xCOUEN0WH3czf6ppl8" crossorigin="anonymous"></script>
+    <script src="scan.js"></script>
+</body>
+</html>
